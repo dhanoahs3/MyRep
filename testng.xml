@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--This is a comment >
+<!We can give any name to our suite-->
+
+<suite name="Suite for Module 9 and package testng">
+
+<!--We can give any testname but class name should be exactly same as java file we want to run
+the format should be packagename.classname-->
+
+<test name="First Class">
+    <classes>
+        <class name="testng.AnotherTest" ></class>  
+    </classes>
+</test>
+
+<test name="Second Class">
+    <classes>
+        <class name="testng.SecondTest" ></class>  
+    </classes>
+    </test>
+    
+    <test name="Third Class">
+    <classes>
+        <class name="testng.YahooRegistrationTest" ></class>  
+    </classes>
+</test>
+</suite>
+<!--After making all the changes run this file as testng file-->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="harsimrandhanoa" name="testng.SecondTest" tests="2" failures="1" timestamp="3 Jan 2016 06:10:05 GMT" time="0.011" errors="0">
+  <testcase name="Test" time="0.001" classname="testng.SecondTest"/>
+  <testcase name="checkResults" time="0.009" classname="testng.SecondTest">
+    <failure type="java.lang.AssertionError" message="Results are again not good expected:&amp;lt;false&amp;gt; but was:&amp;lt;true&amp;gt;">
+      <![CDATA[java.lang.AssertionError: Results are again not good expected:<false> but was:<true>
+	at testng.SecondTest.checkResults(SecondTest.java:48)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

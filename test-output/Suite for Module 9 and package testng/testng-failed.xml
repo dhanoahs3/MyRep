@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite for Module 9 and package testng]" parallel="false">
+  <test name="Second Class(failed)">
+    <classes>
+      <class name="testng.SecondTest">
+        <methods>
+          <include name="checkResults"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class>
+      <class name="testng.AnotherTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AfterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
