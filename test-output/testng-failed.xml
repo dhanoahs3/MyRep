@@ -1,23 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite for Module 9 and package testng]" parallel="false">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite for Module 9 and package testng]">
   <test name="Second Class(failed)">
     <classes>
       <class name="testng.SecondTest">
         <methods>
-          <include name="checkResults"/>
           <include name="beforeTest"/>
+          <include name="checkResults"/>
         </methods>
-      </class>
+      </class> <!-- testng.SecondTest -->
       <class name="testng.AnotherTest">
         <methods>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
           <include name="AfterTest"/>
-          <include name="beforeSuite"/>
           <include name="beforeTest"/>
-          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
           <include name="afterSuite"/>
         </methods>
-      </class>
+      </class> <!-- testng.AnotherTest -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Second Class(failed) -->
+</suite> <!-- Failed suite [Suite for Module 9 and package testng] -->

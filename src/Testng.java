@@ -32,4 +32,8 @@ public class Testng {
 	public void anothermsg(){
 		System.out.println("Another msg printing");
 	}
+	@Test
+	public void abc(){
+		System.out.println("Another msg printing abc");
+	}
 }
