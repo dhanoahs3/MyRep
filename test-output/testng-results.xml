@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite for Module 9 and package testng" duration-ms="129" started-at="2016-04-21T15:01:04Z" finished-at="2016-04-21T15:01:04Z">
+  <suite name="Suite for Module 9 and package testng" duration-ms="224" started-at="2016-04-21T16:01:12Z" finished-at="2016-04-21T16:01:13Z">
     <groups>
     </groups>
-    <test name="First Class" duration-ms="14" started-at="2016-04-21T15:01:04Z" finished-at="2016-04-21T15:01:04Z">
+    <test name="First Class" duration-ms="38" started-at="2016-04-21T16:01:12Z" finished-at="2016-04-21T16:01:12Z">
       <class name="testng.AnotherTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="receiveemail()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="receiveemail" duration-ms="1" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="receiveemail()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="receiveemail" duration-ms="1" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- receiveemail -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="sendemail()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="sendemail" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sendemail()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="sendemail" duration-ms="0" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendemail -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="afterMethod" is-config="true" duration-ms="3" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="AfterTest" is-config="true" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="AfterTest" is-config="true" duration-ms="1" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- testng.AnotherTest -->
     </test> <!-- First Class -->
-    <test name="Second Class" duration-ms="5" started-at="2016-04-21T15:01:04Z" finished-at="2016-04-21T15:01:04Z">
+    <test name="Second Class" duration-ms="9" started-at="2016-04-21T16:01:13Z" finished-at="2016-04-21T16:01:13Z">
       <class name="testng.SecondTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.SecondTest@2d6e8792]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.SecondTest@2d6e8792]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-04-21T09:01:13Z" finished-at="2016-04-21T09:01:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:testng.SecondTest@2d6e8792]" name="Test" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:testng.SecondTest@2d6e8792]" name="Test" duration-ms="0" started-at="2016-04-21T09:01:13Z" finished-at="2016-04-21T09:01:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="FAIL" signature="checkResults()[pri:0, instance:testng.SecondTest@2d6e8792]" name="checkResults" duration-ms="3" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="FAIL" signature="checkResults()[pri:0, instance:testng.SecondTest@2d6e8792]" name="checkResults" duration-ms="5" started-at="2016-04-21T09:01:13Z" finished-at="2016-04-21T09:01:13Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Results are again not good expected [false] but found [true]]]>
@@ -93,9 +93,9 @@
         </test-method> <!-- checkResults -->
       </class> <!-- testng.SecondTest -->
     </test> <!-- Second Class -->
-    <test name="Third Class" duration-ms="3" started-at="2016-04-21T15:01:04Z" finished-at="2016-04-21T15:01:04Z">
+    <test name="Third Class" duration-ms="6" started-at="2016-04-21T16:01:13Z" finished-at="2016-04-21T16:01:13Z">
       <class name="testng.YahooRegistrationTest">
-        <test-method status="PASS" signature="TestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.YahooRegistrationTest@60f82f98]" name="TestData" duration-ms="1" started-at="2016-04-21T08:01:04Z" data-provider="registerData" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="TestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.YahooRegistrationTest@60f82f98]" name="TestData" duration-ms="0" started-at="2016-04-21T09:01:13Z" data-provider="registerData" finished-at="2016-04-21T09:01:13Z">
           <params>
             <param index="0">
               <value>
@@ -121,33 +121,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestData -->
-        <test-method status="PASS" signature="TestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.YahooRegistrationTest@60f82f98]" name="TestData" duration-ms="0" started-at="2016-04-21T08:01:04Z" data-provider="registerData" finished-at="2016-04-21T08:01:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[email3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password3]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[city3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestData -->
-        <test-method status="PASS" signature="TestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.YahooRegistrationTest@60f82f98]" name="TestData" duration-ms="0" started-at="2016-04-21T08:01:04Z" data-provider="registerData" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="TestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.YahooRegistrationTest@60f82f98]" name="TestData" duration-ms="1" started-at="2016-04-21T09:01:13Z" data-provider="registerData" finished-at="2016-04-21T09:01:13Z">
           <params>
             <param index="0">
               <value>
@@ -173,13 +147,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestData -->
+        <test-method status="PASS" signature="TestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.YahooRegistrationTest@60f82f98]" name="TestData" duration-ms="0" started-at="2016-04-21T09:01:13Z" data-provider="registerData" finished-at="2016-04-21T09:01:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[city3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestData -->
       </class> <!-- testng.YahooRegistrationTest -->
       <class name="testng.AnotherTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="beforeSuite" is-config="true" duration-ms="35" started-at="2016-04-21T09:01:12Z" finished-at="2016-04-21T09:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-04-21T08:01:04Z" finished-at="2016-04-21T08:01:04Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testng.AnotherTest@1cd072a9]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-04-21T09:01:13Z" finished-at="2016-04-21T09:01:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
